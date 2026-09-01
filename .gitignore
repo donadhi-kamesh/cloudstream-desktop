@@ -1,0 +1,15 @@
+.gradle/
+build/
+**/build/
+.idea/
+*.iml
+.kotlin/
+local.properties
+out/
+*.log
+.DS_Store
+*.hprof
+kotlin-js-store/
+bin/
+*.class
+agent-tools/

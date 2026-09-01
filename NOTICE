@@ -1,0 +1,24 @@
+CloudStream Desktop
+===================
+
+This program is a derivative of CloudStream 3
+https://github.com/recloudstream/cloudstream
+
+Copyright (c) reCloudStream contributors
+Copyright (c) cs-desktop authors
+
+Licensed under the GNU General Public License v3.0. See LICENSE.
+
+This desktop port is an independent project. It is not affiliated with,
+endorsed by, or maintained by reCloudStream.
+
+The Kotlin sources under core/src were adapted from the CloudStream
+`library` module (commonMain + jvmMain) so that existing `.cs3` plugins
+continue to resolve `com.lagradost.cloudstream3.*` types.
+
+Third-party runtime components downloaded by the app (not shipped in git):
+- libmpv / mpv (LGPL) from shinchiro winbuilds, on first launch on Windows
+- dex2jar (Apache-2.0) into the user tools directory when installing a .cs3 plugin
+- Microsoft Edge WebView2 Evergreen runtime (installed by the user from Microsoft)
+
+Shaka Player is loaded from jsDelivr in the DRM player page (Apache-2.0).

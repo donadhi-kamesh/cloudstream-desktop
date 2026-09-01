@@ -1,0 +1,6 @@
+The Kotlin sources under core/src were adapted from CloudStream 3
+(https://github.com/recloudstream/cloudstream), Copyright (c) reCloudStream
+contributors, licensed under GNU GPL-3.0.
+
+This desktop port is an independent project and is not affiliated with,
+endorsed by, or maintained by reCloudStream.
